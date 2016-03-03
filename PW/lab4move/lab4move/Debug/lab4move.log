@@ -1,0 +1,24 @@
+﻿Build started 03.03.2016 18:26:03.
+     1>Project "E:\c++\programare windows\lab4move\lab4move\lab4move.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(73): warning C4002: too many actual parameters for macro 'CreateWindowW'
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(124): warning C4244: 'argument' : conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(130): warning C4244: 'argument' : conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(131): warning C4244: 'argument' : conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(100): warning C4101: 'hOldBitmap' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(106): warning C4101: 'k' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(99): warning C4101: 'hCompatibleDC' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(101): warning C4101: 'Bitmap' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(106): warning C4101: 'j' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(119): warning C4101: 'hBrush' : unreferenced local variable
+     1>e:\c++\programare windows\lab4move\lab4move\source.cpp(232): warning C4715: 'WndProc' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++\programare windows\lab4move\Debug\lab4move.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\c++\programare windows\lab4move\Debug\lab4move.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c++\programare windows\lab4move\Debug\lab4move.lib" /MACHINE:X86 Debug\Source.obj
+         lab4move.vcxproj -> E:\c++\programare windows\lab4move\Debug\lab4move.exe
+     1>Done Building Project "E:\c++\programare windows\lab4move\lab4move\lab4move.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84
